@@ -13,7 +13,6 @@
 ## Run
 
 ```bash
-# http://localhost:8080/
 yarn
 node index.js
 ```
@@ -23,9 +22,20 @@ node index.js
 ## Docker
 
 ```bash
-# http://localhost:8080/
 docker build --no-cache -f Dockerfile -t ghcr.io/craftslab/websocketdemo:latest .
 docker run --rm -p 8080:8080 ghcr.io/craftslab/websocketdemo:latest
+```
+
+
+
+## Test
+
+```
+# http://localhost:8080/
+Step 1: Simulate login
+Step 2: Open WebSocket connection
+Step 3: Send WebSocket message
+Step 4: Simulate logout
 ```
 
 
