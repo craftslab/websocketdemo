@@ -1,0 +1,14 @@
+{
+  "author": "craftslab",
+  "name": "websocketdemo",
+  "version": "1.0.0",
+  "description": "WebSocket demo",
+  "productName": "websocketdemo",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-session": "^1.16.1",
+    "uuid": "^8.3.2",
+    "ws": "^8.5.0"
+  }
+}
